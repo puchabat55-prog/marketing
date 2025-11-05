@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPBLXNTYZJ"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPBLXNTYZJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -13,7 +12,6 @@
 
   gtag('config', 'G-LPBLXNTYZJ');
 </script>
-    <!-- 오픈그래프 설정 -->
     <meta property="og:title" content="프리미엄 샤브샤브 전문점">
     <meta property="og:description" content="진수성찬!">
     <meta property="og:image" content="img01.png">
@@ -22,9 +20,7 @@
     
     
     <title>프리미엄 샤브샤브 전문점</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter 폰트 (Tailwind 기본 폰트와 잘 어울림) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
@@ -38,7 +34,6 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
-    <!-- 헤더 -->
     <header class="bg-white shadow-md">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-3xl font-bold text-green-700">
@@ -47,12 +42,12 @@
             <div class="space-x-4">
                 <a href="#" class="text-gray-600 hover:text-green-600">메뉴</a>
                 <a href="#" class="text-gray-600 hover:text-green-600">매장찾기</a>
+                <a href="usercomment.html" class="text-gray-600 hover:text-green-600">고객 후기</a>
                 <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition duration-300">예약하기</a>
             </div>
         </nav>
     </header>
 
-    <!-- 메인 비디오 섹션 (vid01.mp4) -->
     <main class="container mx-auto px-6 py-12">
         <section class="text-center">
             <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -63,11 +58,6 @@
                 진수성찬 샤브샤브에서 특별한 미식 경험을 만나보세요.
             </p>
 
-            <!-- 
-              [중요] vid01.mp4 파일이 이 HTML 파일과 같은 폴더에 있어야 합니다.
-              autoplay, loop, muted: 배경 비디오처럼 자동 재생 및 반복 (소리 끔)
-              playsinline: 모바일에서 전체 화면으로 자동 전환 방지
-            -->
             <div class="bg-black rounded-lg shadow-xl overflow-hidden max-w-4xl mx-auto">
                 <video class="w-full" controls autoplay loop muted playsinline>
                     <source src="vid01.mp4" type="video/mp4">
@@ -76,12 +66,7 @@
             </div>
         </section>
 
-        <!-- 두 번째 비디오 섹션 (vid02.mp4) -->
         <section class="mt-20 flex flex-col md:flex-row items-center gap-12">
-            <!-- 
-              [중요] vid02.mp4 파일이 이 HTML 파일과 같은 폴더에 있어야 합니다.
-              여기서는 controls를 추가하여 사용자가 직접 재생하도록 합니다.
-            -->
             <div class="md:w-1/2 bg-black rounded-lg shadow-xl overflow-hidden">
                 <video class="w-full" controls>
                     <source src="vid02.mp4" type="video/mp4">
@@ -101,7 +86,6 @@
             </div>
         </section>
 
-        <!-- CTA 섹션 -->
         <section class="text-center bg-white rounded-lg shadow-lg p-12 mt-20">
             <h2 class="text-3xl font-bold mb-4">오늘 저녁, 따뜻한 샤브샤브 어떠세요?</h2>
             <p class="text-gray-600 mb-8">
@@ -113,7 +97,6 @@
         </section>
     </main>
 
-    <!-- 푸터 -->
     <footer class="bg-gray-800 text-gray-300 mt-20 py-8">
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2025 진수성찬 샤브샤브. All rights reserved.</p>
@@ -125,7 +108,3 @@
 
 </body>
 </html>
-
-
-
-
